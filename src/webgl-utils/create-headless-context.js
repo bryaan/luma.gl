@@ -3,10 +3,7 @@
 import isBrowser from '../utils/is-browser';
 
 const ERR_HEADLESSGL_LOAD = `\
-WebGL API not available: Failed to dynamically load headless gl. \
-headless gl either not installed, or not accessible from this directory, \
-or built for the wrong Node.js version. \
-Try rerunning after doing "npm install gl".`;
+WebGL not available in Node.js, install using "npm install gl".`;
 
 const ERR_HEADLESSGL_NOT_AVAILABLE =
 'Failed to create WebGL context in Node.js, headless gl not available';
